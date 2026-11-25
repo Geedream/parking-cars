@@ -1,0 +1,29 @@
+{
+  "appId": "com.eazo.parkingwars",
+  "appName": "Parking Wars",
+  "webDir": "www",
+  "server": {
+    "url": "https://project-73d17537.eazo.dev",
+    "androidScheme": "https",
+    "allowNavigation": ["project-73d17537.eazo.dev", "*.eazo.dev"]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#080c18",
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 900,
+      "launchAutoHide": true,
+      "backgroundColor": "#080c18",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#080c18",
+      "overlaysWebView": false
+    }
+  }
+}
